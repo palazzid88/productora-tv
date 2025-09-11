@@ -1,0 +1,82 @@
+[
+  {
+    "id": "logan",
+    "nombre": "Logan",
+    "canal": "Canal 9",
+    "diaHora": "Viernes 22:00",
+    "conductor": "Gisela Giménez",
+    "descripcionCorta": "A nivel cultural de entretenimiento.",
+    "descripcionLarga": "El programa se trata de mostrar eventos y fiestas culturales, en todo América del Sur. Se mostrarán diversos estados sociales. Interactuando con los protagonistas de tal eventos o fiestas. Haciendo preguntas y juegos al público presente. En este pasaje mostraremos la importancia de porque se festeja  tal acontecimiento. Posee una escuela de Danza . Avalada por el ministerio . Instituto de artes.Tuvo radio FM  Moriado. Fue conductora de  en canal 4 de villa Constitución .",
+    "logo": "./logos/logan.jpg",
+    "genero": "Cultural / Entretenimiento",
+    "duracion": "60 min",
+    "contacto": {
+      "youtube": "https://youtube.com/cineplus",
+      "instagram": "https://instagram.com/cineplus",
+      "facebook": "https://facebook.com/cineplus",
+      "whatsapp": "+54 9 11 1234 5678",
+      "email": "contacto@cineplus.com",
+      "telefono": "+54 11 4321 8765"
+    }
+  },
+  {
+    "id": "turismo",
+    "nombre": "Turismo y degustación",
+    "canal": "Argentinísima Satelital",
+    "diaHora": "Domingos 18:00",
+    "conductor": "Rodrigo Villalba",
+    "descripcionCorta": "El programa consiste en mostrar lugares donde el turismo no muestra.",
+    "descripcionLarga": "Turismo y degustación Es un programa a nivel cultural. El programa consiste en mostrar lugares donde el turismo no muestra y son maravilloso para conocer este pesaje es en toda sur de América. También agasajar los restaurantes  en la cual son  un icono del lugar haciendo resurgir si marca sus platos degustando y conociendo si historia.   Obstante  en todos los lugares que vamos va  ser más que divertido aremos todo clase de  actividad , juegos, y travesías de ese lugar.. sorprendiendo al espectador",
+    "logo": "/logos/deportes.png",
+    "genero": "Deportes",
+    "duracion": "90 min",
+    "contacto": {
+      "youtube": "https://youtube.com/deporteshoy",
+      "instagram": "https://instagram.com/deporteshoy",
+      "facebook": "https://facebook.com/deporteshoy",
+      "whatsapp": "+54 9 11 2345 6789",
+      "email": "info@deporteshoy.com",
+      "telefono": "+54 11 4567 1234"
+    }
+  },
+  {
+    "id": "musica-en-vivo",
+    "nombre": "Música en Vivo",
+    "canal": "Canal 13",
+    "diaHora": "Sábados 21:00",
+    "conductor": "Laura Fernández",
+    "descripcionCorta": "El escenario donde la música cobra vida con artistas nacionales e internacionales.",
+    "descripcionLarga": "Música en Vivo ofrece conciertos íntimos, acústicos y presentaciones exclusivas de artistas consagrados y emergentes. Un espacio pensado para los amantes de todos los géneros musicales, con entrevistas y backstage.",
+    "logo": "/logos/musica.png",
+    "genero": "Música / Espectáculos",
+    "duracion": "120 min",
+    "contacto": {
+      "youtube": "https://youtube.com/musicaenvivo",
+      "instagram": "https://instagram.com/musicaenvivo",
+      "facebook": "https://facebook.com/musicaenvivo",
+      "whatsapp": "+54 9 11 3456 7890",
+      "email": "produccion@musicaenvivo.com",
+      "telefono": "+54 11 5678 2345"
+    }
+  },
+  {
+    "id": "cocina-creativa",
+    "nombre": "Cocina Creativa",
+    "canal": "El Gourmet",
+    "diaHora": "Lunes a Viernes 19:00",
+    "conductor": "Chef Roberto Gómez",
+    "descripcionCorta": "Recetas innovadoras y tips de cocina fáciles de aplicar en casa.",
+    "descripcionLarga": "Cocina Creativa es un programa culinario que inspira a transformar ingredientes cotidianos en platos sorprendentes. El Chef Roberto comparte secretos, técnicas y propuestas gastronómicas que fusionan tradición y modernidad.",
+    "logo": "/logos/cocina.png",
+    "genero": "Gastronomía",
+    "duracion": "30 min",
+    "contacto": {
+      "youtube": "https://youtube.com/cocinacreativa",
+      "instagram": "https://instagram.com/cocinacreativa",
+      "facebook": "https://facebook.com/cocinacreativa",
+      "whatsapp": "+54 9 11 4567 8901",
+      "email": "cocina@cocinacreativa.com",
+      "telefono": "+54 11 6789 3456"
+    }
+  }
+]
