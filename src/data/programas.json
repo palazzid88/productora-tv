@@ -6,8 +6,8 @@
     "diaHora": "Viernes 22:00",
     "conductor": "Gisela Giménez",
     "descripcionCorta": "A nivel cultural de entretenimiento.",
-    "descripcionLarga": "El programa se trata de mostrar eventos y fiestas culturales, en todo América del Sur. Se mostrarán diversos estados sociales. Interactuando con los protagonistas de tal eventos o fiestas. Haciendo preguntas y juegos al público presente. En este pasaje mostraremos la importancia de porque se festeja  tal acontecimiento. Posee una escuela de Danza . Avalada por el ministerio . Instituto de artes.Tuvo radio FM  Moriado. Fue conductora de  en canal 4 de villa Constitución .",
-    "logo": "./logos/logan.jpg",
+    "descripcionLarga": "El programa se trata de mostrar eventos y fiestas culturales, en todo América del Sur. Se mostrarán diversos estados sociales. Interactuando con los protagonistas de tal eventos o fiestas. Haciendo preguntas y juegos al público presente. En este pasaje mostraremos la importancia de porque se festeja  tal acontecimiento. Posee una escuela de Danza . Avalada por el ministerio . Instituto de artes.Tuvo radio FM  Moriado. Fue conductora de  en canal 4 de villa Constitución .",
+    "logo": "./logos/logan.jpeg",
     "genero": "Cultural / Entretenimiento",
     "duracion": "60 min",
     "contacto": {
@@ -17,7 +17,8 @@
       "whatsapp": "+54 9 11 1234 5678",
       "email": "contacto@cineplus.com",
       "telefono": "+54 11 4321 8765"
-    }
+    },
+    "description": "Logan es un programa dedicado a recorrer fiestas culturales y eventos populares en todo el país y América del Sur. A través de entrevistas, juegos y la interacción directa con el público, se destacan las razones y el trasfondo de cada celebración. Transmitido por Canal 9 y también presente en la grilla de Argentinísima Satelital, Logan es un espacio que combina entretenimiento, cultura y tradición, acercando al espectador la riqueza de los festejos que forman parte de nuestra identidad."
   },
   {
     "id": "turismo",
@@ -27,7 +28,7 @@
     "conductor": "Rodrigo Villalba",
     "descripcionCorta": "El programa consiste en mostrar lugares donde el turismo no muestra.",
     "descripcionLarga": "Turismo y degustación Es un programa a nivel cultural. El programa consiste en mostrar lugares donde el turismo no muestra y son maravilloso para conocer este pesaje es en toda sur de América. También agasajar los restaurantes  en la cual son  un icono del lugar haciendo resurgir si marca sus platos degustando y conociendo si historia.   Obstante  en todos los lugares que vamos va  ser más que divertido aremos todo clase de  actividad , juegos, y travesías de ese lugar.. sorprendiendo al espectador",
-    "logo": "/logos/deportes.png",
+    "logo": "/logos/turismo-ilustracion.jpeg",
     "genero": "Deportes",
     "duracion": "90 min",
     "contacto": {
@@ -37,7 +38,29 @@
       "whatsapp": "+54 9 11 2345 6789",
       "email": "info@deporteshoy.com",
       "telefono": "+54 11 4567 1234"
-    }
+    },
+    "description": "Turismo y degustación invita a descubrir rincones poco explorados de la Argentina y de América del Sur. El programa no solo muestra paisajes únicos, sino que también resalta la gastronomía típica de cada lugar, visitando restaurantes icónicos y compartiendo sus historias y sabores. Con una propuesta dinámica y divertida, incluye juegos, actividades y travesías que acercan al espectador la esencia de cada destino, convirtiéndose en un programa cultural y turístico imperdible."
+  },
+  {
+    "id": "aire-de-zamba",
+    "nombre": "Aire de Zamba",
+    "canal": "Argentinísima Satelital",
+    "diaHora": "Sábados 20:00",
+    "conductor": "Por definir",
+    "descripcionCorta": "Un espacio dedicado al folklore y la danza tradicional.",
+    "descripcionLarga": "Aire de Zamba reúne lo mejor del arte popular argentino, con música, entrevistas y presentaciones en vivo. Un homenaje a la danza, las peñas y los festivales que mantienen viva la tradición folklórica en todo el país.",
+    "logo": "/logos/aire-de-zamba.png",
+    "genero": "Cultural / Folklore",
+    "duracion": "60 min",
+    "contacto": {
+      "youtube": "https://youtube.com/airedezamba",
+      "instagram": "https://instagram.com/airedezamba",
+      "facebook": "https://facebook.com/airedezamba",
+      "whatsapp": "+54 9 11 5678 9012",
+      "email": "airedezamba@producciones.com",
+      "telefono": "+54 11 7890 4567"
+    },
+    "description": "Aire de Zamba es un programa que celebra el folklore argentino a través de bailes, entrevistas, notas y la presencia de artistas de todo el país. Con un recorrido por peñas en vivo, festivales y giras folklóricas, brinda un espacio para la música, la danza y el arte popular. También abre las puertas al Instituto de Arte y Danza, reforzando el valor cultural de nuestras tradiciones. Cada emisión es una experiencia que conecta al espectador con la identidad y la pasión de la música folklórica argentina."
   },
   {
     "id": "musica-en-vivo",
@@ -47,7 +70,7 @@
     "conductor": "Laura Fernández",
     "descripcionCorta": "El escenario donde la música cobra vida con artistas nacionales e internacionales.",
     "descripcionLarga": "Música en Vivo ofrece conciertos íntimos, acústicos y presentaciones exclusivas de artistas consagrados y emergentes. Un espacio pensado para los amantes de todos los géneros musicales, con entrevistas y backstage.",
-    "logo": "/logos/musica.png",
+    "logo": "/logos/mundo-musical.jpeg",
     "genero": "Música / Espectáculos",
     "duracion": "120 min",
     "contacto": {
@@ -57,7 +80,8 @@
       "whatsapp": "+54 9 11 3456 7890",
       "email": "produccion@musicaenvivo.com",
       "telefono": "+54 11 5678 2345"
-    }
+    },
+    "description": "Música en Vivo es un espacio que reúne a los mejores grupos y solistas de la escena nacional e internacional. Con un estilo fresco y cercano, ofrece presentaciones en vivo de música tropical, cumbia y diversos géneros populares. Además, cuenta con la participación especial de artistas como Yésica Tornabene y Katy, quienes aportan frescura y energía al programa. Con el respaldo de Argentinísima Satelital, es una propuesta que combina música, espectáculo y emoción en cada emisión."
   },
   {
     "id": "cocina-creativa",
@@ -77,6 +101,7 @@
       "whatsapp": "+54 9 11 4567 8901",
       "email": "cocina@cocinacreativa.com",
       "telefono": "+54 11 6789 3456"
-    }
+    },
+    "description": "Cocina Creativa es un ciclo gastronómico conducido por el Chef Roberto Gómez, donde la innovación y la tradición se combinan para transformar la cocina cotidiana en experiencias únicas. Con recetas fáciles de aplicar en casa, consejos prácticos y propuestas originales, el programa invita a disfrutar del arte culinario de una manera dinámica y accesible."
   }
 ]

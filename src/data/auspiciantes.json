@@ -1,36 +1,36 @@
 [
   {
     "id": "ausp1",
-    "nombre": "Marca Uno",
-    "logo": "/sponsors/file.svg",
+    "nombre": "Flaks",
+    "logo": "/sponsors/1.png",
     "url": "/sponsors/file.svg"
   },
   {
     "id": "ausp2",
     "nombre": "Marca Dos",
-    "logo": "/sponsors/flora.jpg",
+    "logo": "/sponsors/2.png",
     "url": "/sponsors/flora.jpg"
   },
   {
     "id": "ausp3",
     "nombre": "Marca Tres",
-    "logo": "/sponsors/flask.png",
+    "logo": "/sponsors/3.png",
     "url": "/sponsors/flask.png"
   },
   {
     "id": "ausp4",
     "nombre": "Marca Cuatro",
-    "logo": "/sponsors/globe.svg",
+    "logo": "/sponsors/4.png",
     "url": "/sponsors/globe.svg"
   },
   {
     "id": "ausp5",
     "nombre": "Marca Cinco",
-    "logo": "/sponsors/golden.jpg",
+    "logo": "/sponsors/5.png",
     "url": "/sponsors/golden.jpg"
   },
   {
-    "id": "ausp5",
+    "id": "ausp6",
     "nombre": "Marca Cinco",
     "logo": "/sponsors/impulsar.png",
     "url": "https://impulsardigital.com.ar"
