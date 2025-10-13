@@ -10,7 +10,7 @@ export default function Home() {
       <Hero />
 
       {/* Sección Programas */}
-      <section id="programas" className="container mx-auto px-6 py-16">
+      <section id="programas" className="scroll-mt-32 container mx-auto px-6 py-16">
         <h2 className="text-3xl font-bold mb-8 text-center">
           Nuestros Programas
         </h2>

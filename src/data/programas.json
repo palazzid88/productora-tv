@@ -7,7 +7,8 @@
     "conductor": "Gisela Giménez",
     "descripcionCorta": "A nivel cultural de entretenimiento.",
     "descripcionLarga": "El programa se trata de mostrar eventos y fiestas culturales, en todo América del Sur. Se mostrarán diversos estados sociales. Interactuando con los protagonistas de tal eventos o fiestas. Haciendo preguntas y juegos al público presente. En este pasaje mostraremos la importancia de porque se festeja  tal acontecimiento. Posee una escuela de Danza . Avalada por el ministerio . Instituto de artes.Tuvo radio FM  Moriado. Fue conductora de  en canal 4 de villa Constitución .",
-    "logo": "./logos/logan.jpeg",
+    "logo": "/logos/logan.jpeg",
+    "img": "/logos/logan.jpg",
     "genero": "Cultural / Entretenimiento",
     "duracion": "60 min",
     "contacto": {
@@ -29,6 +30,7 @@
     "descripcionCorta": "El programa consiste en mostrar lugares donde el turismo no muestra.",
     "descripcionLarga": "Turismo y degustación Es un programa a nivel cultural. El programa consiste en mostrar lugares donde el turismo no muestra y son maravilloso para conocer este pesaje es en toda sur de América. También agasajar los restaurantes  en la cual son  un icono del lugar haciendo resurgir si marca sus platos degustando y conociendo si historia.   Obstante  en todos los lugares que vamos va  ser más que divertido aremos todo clase de  actividad , juegos, y travesías de ese lugar.. sorprendiendo al espectador",
     "logo": "/logos/turismo-ilustracion.jpeg",
+    "img": "/logos/turismo.jpg",
     "genero": "Deportes",
     "duracion": "90 min",
     "contacto": {
@@ -49,7 +51,8 @@
     "conductor": "Por definir",
     "descripcionCorta": "Un espacio dedicado al folklore y la danza tradicional.",
     "descripcionLarga": "Aire de Zamba reúne lo mejor del arte popular argentino, con música, entrevistas y presentaciones en vivo. Un homenaje a la danza, las peñas y los festivales que mantienen viva la tradición folklórica en todo el país.",
-    "logo": "/logos/aire-de-zamba.png",
+    "logo": "/logos/zamba.png",
+    "img": "/logos/aire.jpg",
     "genero": "Cultural / Folklore",
     "duracion": "60 min",
     "contacto": {
@@ -64,13 +67,14 @@
   },
   {
     "id": "musica-en-vivo",
-    "nombre": "Música en Vivo",
+    "nombre": "Mundo musical",
     "canal": "Canal 13",
     "diaHora": "Sábados 21:00",
     "conductor": "Laura Fernández",
     "descripcionCorta": "El escenario donde la música cobra vida con artistas nacionales e internacionales.",
-    "descripcionLarga": "Música en Vivo ofrece conciertos íntimos, acústicos y presentaciones exclusivas de artistas consagrados y emergentes. Un espacio pensado para los amantes de todos los géneros musicales, con entrevistas y backstage.",
+    "descripcionLarga": "Mundo musical ofrece conciertos íntimos, acústicos y presentaciones exclusivas de artistas consagrados y emergentes. Un espacio pensado para los amantes de todos los géneros musicales, con entrevistas y backstage.",
     "logo": "/logos/mundo-musical.jpeg",
+    "img": "/logos/musical.jpg",
     "genero": "Música / Espectáculos",
     "duracion": "120 min",
     "contacto": {
@@ -82,26 +86,5 @@
       "telefono": "+54 11 5678 2345"
     },
     "description": "Música en Vivo es un espacio que reúne a los mejores grupos y solistas de la escena nacional e internacional. Con un estilo fresco y cercano, ofrece presentaciones en vivo de música tropical, cumbia y diversos géneros populares. Además, cuenta con la participación especial de artistas como Yésica Tornabene y Katy, quienes aportan frescura y energía al programa. Con el respaldo de Argentinísima Satelital, es una propuesta que combina música, espectáculo y emoción en cada emisión."
-  },
-  {
-    "id": "cocina-creativa",
-    "nombre": "Cocina Creativa",
-    "canal": "El Gourmet",
-    "diaHora": "Lunes a Viernes 19:00",
-    "conductor": "Chef Roberto Gómez",
-    "descripcionCorta": "Recetas innovadoras y tips de cocina fáciles de aplicar en casa.",
-    "descripcionLarga": "Cocina Creativa es un programa culinario que inspira a transformar ingredientes cotidianos en platos sorprendentes. El Chef Roberto comparte secretos, técnicas y propuestas gastronómicas que fusionan tradición y modernidad.",
-    "logo": "/logos/cocina.png",
-    "genero": "Gastronomía",
-    "duracion": "30 min",
-    "contacto": {
-      "youtube": "https://youtube.com/cocinacreativa",
-      "instagram": "https://instagram.com/cocinacreativa",
-      "facebook": "https://facebook.com/cocinacreativa",
-      "whatsapp": "+54 9 11 4567 8901",
-      "email": "cocina@cocinacreativa.com",
-      "telefono": "+54 11 6789 3456"
-    },
-    "description": "Cocina Creativa es un ciclo gastronómico conducido por el Chef Roberto Gómez, donde la innovación y la tradición se combinan para transformar la cocina cotidiana en experiencias únicas. Con recetas fáciles de aplicar en casa, consejos prácticos y propuestas originales, el programa invita a disfrutar del arte culinario de una manera dinámica y accesible."
   }
 ]

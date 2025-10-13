@@ -34,5 +34,23 @@
     "nombre": "Marca Cinco",
     "logo": "/sponsors/impulsar.png",
     "url": "https://impulsardigital.com.ar"
+  },
+  {
+    "id": "ausp7",
+    "nombre": "Marca Cinco",
+    "logo": "/sponsors/flaks.png",
+    "url": "https://impulsardigital.com.ar"
+  },
+  {
+    "id": "ausp8",
+    "nombre": "Marca Cinco",
+    "logo": "/sponsors/elg.jpeg",
+    "url": "https://impulsardigital.com.ar"
+  },
+  {
+    "id": "ausp9",
+    "nombre": "Marca Cinco",
+    "logo": "/sponsors/lok.jpeg",
+    "url": "https://impulsardigital.com.ar"
   }
 ]
