@@ -8,7 +8,7 @@ export default function ProgramaCard({ programa }) {
         <img
           src={programa.logo}
           alt={programa.nombre}
-          className="max-h-32 object-contain"
+          className="max-h-40 object-contain"
         />
       </div>
 

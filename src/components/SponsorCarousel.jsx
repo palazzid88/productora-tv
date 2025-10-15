@@ -6,6 +6,12 @@ export default function SponsorsGrid() {
   return (
     <div className="py-12 bg-black">
       <div className="container mx-auto px-6">
+        {/* Título */}
+        <h2 className="text-3xl font-bold text-white text-center mb-10">
+          Nuestros Auspiciantes
+        </h2>
+
+        {/* Grid de logos */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-10 items-center justify-items-center">
           {auspiciantes.map((sponsor) => (
             <a

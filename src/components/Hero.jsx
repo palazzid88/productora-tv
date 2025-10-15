@@ -1,30 +1,28 @@
+"use client";
+
 export default function Hero() {
   return (
-    <section className="relative bg-gradient-to-r from-black via-purple-900 to-black text-white py-32 overflow-hidden">
-      <div className="absolute inset-0 opacity-30 bg-[url('/banner.jpg')] bg-cover bg-center"></div>
-      <div className="relative container mx-auto px-6 text-center">
-        <h2 className="text-5xl md:text-6xl font-extrabold drop-shadow-lg">
-          Producción Audiovisual de Impacto
-        </h2>
-        <p className="mt-6 text-lg max-w-2xl mx-auto text-gray-200">
-          Creamos, producimos y transmitimos contenido innovador para TV y
-          plataformas digitales. Tu historia merece estar en pantalla.
-        </p>
-        <div className="mt-8 flex justify-center gap-4">
-          <a
-            href="#programas"
-            className="px-6 py-3 bg-purple-600 rounded-2xl text-white font-semibold shadow-lg hover:bg-purple-700 transition"
-          >
-            Ver Programas
-          </a>
-          <a
-            href="#contacto"
-            className="px-6 py-3 border border-white rounded-2xl text-white font-semibold hover:bg-white hover:text-black transition"
-          >
-            Contacto
-          </a>
-        </div>
-      </div>
+    <section className="relative w-full h-[100vh] flex items-center justify-center overflow-hidden bg-black">
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover"
+        src="/banner/video-banner.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
+      <div className="absolute inset-0 bg-black/50"></div>
+
+    <div className="relative z-10 text-center text-white px-6 pt-32 md:pt-24">
+      <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
+        Producción audiovisual de <span className="text-purple-400">impacto</span>
+      </h1>
+      <p className="text-lg md:text-2xl max-w-2xl mx-auto">
+        Creamos, producimos y transmitimos{" "}
+        <span className="text-purple-400">contenido innovador</span> para TV y plataformas digitales.
+      </p>
+    </div>
+
     </section>
   );
 }

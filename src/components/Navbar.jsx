@@ -1,23 +1,28 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+import { Menu, X } from "lucide-react"; // íconos livianos
 
 export default function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
-    <header className="bg-black/90 backdrop-blur-md text-white sticky top-0 z-50 shadow-lg">
-      <div className="container mx-auto flex items-center justify-between px-6 py-4">
-        {/* Logo productora */}
+    <header className="absolute top-0 left-0 w-full z-50 bg-black/30 backdrop-blur-sm text-white">
+      <div className="container mx-auto flex items-center justify-between px-2 py-1">
+        {/* Logo */}
         <Link href="/">
           <Image
             src="/logos/logo-sin-fondo.png"
             alt="ProductoraTV Logo"
-            width={150}       // ajustá el tamaño a tu gusto
-            height={50}       // ajustá el tamaño a tu gusto
+            width={80}
+            height={20}
             className="object-contain"
           />
         </Link>
 
-        {/* Links */}
-        <nav className="space-x-6 hidden md:flex">
+        {/* Menú desktop */}
+        <nav className="hidden md:flex space-x-6">
           <a href="/#programas" className="hover:text-purple-400 transition">
             Programas
           </a>
@@ -28,7 +33,30 @@ export default function Navbar() {
             Contacto
           </a>
         </nav>
+
+        {/* Botón hamburguesa mobile */}
+        <button
+          onClick={() => setMenuOpen(!menuOpen)}
+          className="md:hidden focus:outline-none"
+        >
+          {menuOpen ? <X size={28} /> : <Menu size={28} />}
+        </button>
       </div>
+
+      {/* Menú mobile desplegable */}
+      {menuOpen && (
+        <div className="md:hidden bg-black/80 backdrop-blur-md flex flex-col items-center space-y-4 py-4">
+          <a href="/#programas" className="hover:text-purple-400" onClick={() => setMenuOpen(false)}>
+            Programas
+          </a>
+          <a href="#nosotros" className="hover:text-purple-400" onClick={() => setMenuOpen(false)}>
+            Nosotros
+          </a>
+          <a href="#contacto" className="hover:text-purple-400" onClick={() => setMenuOpen(false)}>
+            Contacto
+          </a>
+        </div>
+      )}
     </header>
   );
 }

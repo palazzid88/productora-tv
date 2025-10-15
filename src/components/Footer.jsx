@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container mx-auto px-6 grid md:grid-cols-3 gap-8">
         {/* Info productora */}
         <div>
-          <h3 className="text-xl font-bold text-white mb-3">🎬 ProductoraTV</h3>
+          <h3 className="text-xl font-bold text-white mb-3">🎬 Fusión Creativa Producción</h3>
           <p className="text-sm">
             Innovación audiovisual y producción televisiva con alcance nacional
             e internacional.
@@ -73,7 +73,7 @@ export default function Footer() {
 
       </div>
       <div className="text-center text-xs mt-10 text-gray-500">
-        © {new Date().getFullYear()} ProductoraTV. Todos los derechos reservados.
+        © {new Date().getFullYear()} Fusión Creativa. Todos los derechos reservados.
       </div>
     </footer>
   );
