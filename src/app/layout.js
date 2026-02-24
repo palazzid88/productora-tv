@@ -12,7 +12,9 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <body className="bg-black text-white">
         <Navbar />
-        {children}
+          <main className="pt-20">
+            {children}
+          </main>
         <Footer className="mt-20"/>
       </body>
     </html>

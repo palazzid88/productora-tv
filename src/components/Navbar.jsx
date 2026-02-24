@@ -8,7 +8,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="absolute top-0 left-0 w-full z-50 bg-black/30 backdrop-blur-sm text-white">
+<header className="absolute top-0 left-0 w-full h-20 z-50 bg-black/30 backdrop-blur-sm text-white">
       <div className="container mx-auto flex items-center justify-between px-2 py-1">
         {/* Logo */}
         <Link href="/">
